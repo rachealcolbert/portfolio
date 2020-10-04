@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
-h1 {
-    font-family: 'Spectral', serif;
+body {}
+
+header {
+    padding: 10px 5px;
+    background-color: #FAF6EB;
+
 }
