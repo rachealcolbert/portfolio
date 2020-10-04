@@ -8,7 +8,7 @@ body {}
 
 header {
     padding: 0 10px;
-    background-image: url("../images/header\ image\ .png");
+    background-image: url();
     background-size: cover;
     background-position: center;
     display: flex;
@@ -72,6 +72,11 @@ header nav ul li a {
     justify-content: space-between;
 }
 
+.categories-title {
+    width: 20%;
+    font-size: x-large;
+}
+
 .about-me {
     flex: 2 70%;
     display: flex;
@@ -79,15 +84,10 @@ header nav ul li a {
     align-items: center;
 }
 
-.categories-title {
-    width: 20%;
-    font-size: x-large;
-}
-
 .about-me-text {
     flex: 12;
     line-height: 1.5;
-    padding-left: 25%;
+    padding-left: 10%;
 }
 
 .categories h3 {
@@ -96,9 +96,10 @@ header nav ul li a {
 
 .work-grid-container {
     max-width: 980px;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 100px);
+    grid-template-rows: repeat(3, 100px);
     gap: 20px;
 }
 
@@ -126,20 +127,35 @@ header nav ul li a {
     background-repeat: no-repeat;
 }
 
-.categories ul {
+.contact {
+    margin: auto;
+    width: 76%;
+    flex-wrap: wrap;
     display: flex;
-    margin: 0;
+}
+
+.contact h3 {
+    border-right: 5px dotted #F2BD21;
+}
+
+.contact ul {
+    display: flex;
     flex-wrap: wrap;
     list-style: none;
 }
 
-.categories ul li a {
-    padding: 0 75px 0 75px;
-    color: #2D2D2D;
-    text-decoration: none;
-    align-items: start;
+.contact ul li {
+    display: flex;
+    align-items: center;
 }
 
-.categories li {
-    margin: auto;
+.contact ul li a {
+    padding: 0 50px 0 50px;
+    color: #2D2D2D;
+    text-decoration: none;
+
+}
+
+section:last-child {
+    margin-bottom: 50px;
 }
