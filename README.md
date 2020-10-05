@@ -2,7 +2,7 @@
 
 ## Purpose
 
-A website that tells future employeers about my work history and links to work samples.
+A website that tells future employers about my work history and links to work samples.
 
 ### **Website Link:**
 
