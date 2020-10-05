@@ -5,13 +5,11 @@
 }
 
 header {
-    padding: 0 10px;
-    background-image: url();
-    background-size: cover;
-    background-position: center;
+    padding: 0 15px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: #F6F2EF;
 }
 
 header h1,
@@ -22,8 +20,6 @@ h1 a {
     padding: 42px 45px;
 
 }
-
-header nav {}
 
 header nav ul {
     padding: 60px 45px;
@@ -41,7 +37,7 @@ header nav ul li a {
 
 
 .jumbotron {
-    background-color: #F6F2EF;
+    background-image: url("../images/hero\ image\ .png");
     background-size: cover;
     background-position: center;
 
@@ -53,10 +49,12 @@ header nav ul li a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 5px 0 10px 0;
 }
 
 .jumbotron h2 {
     text-align: center;
+    padding-bottom: 25px;
 }
 
 .categories {
@@ -91,27 +89,28 @@ header nav ul li a {
 }
 
 .work-grid-container {
-    max-width: 700px;
+    max-width: 65%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 100px);
-    gap: 20px;
+    grid-template-columns: repeat(5, 150px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 45px;
 }
 
 .work-grid-item {
     border-radius: 25px;
     border: solid;
-    border-color: coral;
+    border-color: #F2BD21;
     padding: 1em;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    box-shadow: 5px 5px 5px lightgray;
 }
 
 .project1 {
     grid-column: 1/3;
-    grid-row: 1/4;
+    grid-row: 1/5;
     background: url("../images/Run\ Buddy\ Project.png");
     width: 100%;
     height: 100%;
@@ -130,7 +129,7 @@ header nav ul li a {
 }
 
 .project3 {
-    grid-column: 3/4;
+    grid-column: 3/5;
     grid-row: 3/4;
     background: url("../images/88\ Cups\ of\ Tea\ Project.png");
     width: 100%;
@@ -140,13 +139,23 @@ header nav ul li a {
 }
 
 .project4 {
-    grid-column: 4/5;
-    grid-row: 3/4;
+    grid-column: 3/5;
+    grid-row: 4/5;
     background: url("../images/New\ York\ Times\ Project.png");
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center;
+}
+
+.work-grid-item a {
+    font-weight: bolder;
+    color: #F2BD21;
+    background-color: white;
+    text-decoration: none;
+    padding: 15px 30px 15px 30px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .contact {
@@ -169,6 +178,7 @@ header nav ul li a {
 .contact ul li {
     display: flex;
     align-items: center;
+
 }
 
 .contact ul li a {
