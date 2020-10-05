@@ -6,7 +6,7 @@ A website that tells future employers about my work history and links to work sa
 
 ### **Website Link:**
 
-![Portfolio Screenshot](.assets/images/portfolio.png)
+![](assets/images/portfolio.png)
 
 ## Built With
 
