@@ -6,6 +6,8 @@ A website that tells future employers about my work history and links to work sa
 
 ### **Website Link:**
 
+https://rachealcolbert.github.io/portfolio/
+
 ![](assets/images/portfolio.png)
 
 ## Built With
@@ -15,7 +17,7 @@ A website that tells future employers about my work history and links to work sa
 
 ## Website
 
-https://lernantino.github.io/run-budy
+https://rachealcolbert.github.io/portfolio/
 
 ## Contribution
 
